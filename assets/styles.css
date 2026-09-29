@@ -1,1 +1,53 @@
 @import "tailwindcss";
+body
+{
+    margin: 0;
+    text-align: center;
+}
+
+main
+{
+    padding: 2rem;
+}
+
+h1
+{
+    margin: 1rem 0;
+}
+
+#pond
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 30rem;
+    height: 30rem; 
+}
+
+.water
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+    padding: 2rem;
+}
+
+.lily
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: green;
+    border-radius: 50%;
+    width: 10rem;
+    height:10rem;
+}
+
+.frog
+{
+    display: block;
+    border-radius: 50%;
+    background: rgb(77, 255, 77);
+    width: 4rem;
+    height: 4rem;
+}
