@@ -23,6 +23,7 @@ header
     width: 30rem;
     height: 30rem; 
     margin: 0 auto;
+    border: 1rem solid rgb(104, 86, 61);
 }
 
 .water
@@ -49,7 +50,9 @@ header
 {
     display: block;
     border-radius: 50%;
-    background: rgb(217, 98, 98);
+    background: rgb(217, 122, 98);
     width: 4rem;
     height: 4rem;
 }
+
+
