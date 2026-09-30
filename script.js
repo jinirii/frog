@@ -7,7 +7,7 @@ document.addEventListener("keydown", function (event) {
 
     if (event.key === "ArrowRight" && frogPosition === 0) {
         frogPosition = 1;
-    } //=== check && and
+    } 
 
     else if (event.key === "ArrowLeft" && frogPosition === 1) {
         frogPosition = 0;
